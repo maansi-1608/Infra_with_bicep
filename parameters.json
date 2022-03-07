@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "IotHubs_sbuxiothub_connectionString": {
+            "value": null
+        },
+        "IotHubs_sbuxiothub_containerName": {
+            "value": null
+        },
+        "IotHubs_sbuxiothub_name": {
+            "value": null
+        },
+        "accounts_sbuxcognitiveservice_name": {
+            "value": null
+        },
+        "workspaces_sbuxloganalytics_name": {
+            "value": null
+        },
+        "accounts_sbuxtts_name": {
+            "value": "sbuxtts"
+        },
+        "location":{
+            "value": "chinaeast"
+        }
+        
+    }
+}
